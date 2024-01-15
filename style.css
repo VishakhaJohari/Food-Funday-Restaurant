@@ -1,0 +1,158 @@
+.nav-item a:link,a:visited{
+    color: white;
+    font-weight: 600;
+}
+
+.din{
+    font-weight: 600;
+    font-family: 'Pacifico', cursive;
+}
+.txt{
+    color: orangered;
+}
+.bookbtn{
+    background-color: orangered;
+    color: white;
+    font-weight: 600;
+    border: orangered 5px solid;
+    font-size: 25px;
+}
+.bookbtn:hover{
+    background-color: black;
+}
+
+.hide:hover .menuitem{
+    display: block;
+}
+#fd1
+{
+    height: 120px;
+    width: 60px;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+.fd2
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border:2px solid white;
+    margin-left: 20px;
+    margin-top: 10px;
+    animation: anim 2s infinite;    
+    position: absolute;
+}
+@keyframes anim
+{
+    from{top:0px;opacity: 0.5;}
+    to{top:40px;opacity: 0;}
+}
+
+.menuitem
+{
+    height: 150px;
+    width: 250px;
+    border: 3px solid white;
+    color:white;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    display: none;
+}
+.hide:hover .menuitem
+{
+    display: block;
+}
+.nav-pills>li.nav-item>.nav-link
+{
+    color: black;
+    width: 30vh;
+    /* background-color: white; */
+}
+.nav-pills>li.nav-item>.nav-link:focus
+{
+    background-color: orangered;
+    color: white;
+}
+.team:hover{
+    background-color: orangered;
+    /* color: white; */
+}
+.backimg{
+    background-image: url('images/blog_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    
+}
+.galhide
+{
+    display: none;  
+}
+
+.show:hover .galhide
+{
+    display: block;   
+}
+.card:hover{
+    color: white;
+    background-color: orangered;
+}
+.purchasebtn{
+    background-color: orangered;
+    color: white;
+    border: orangered 5px solid;
+    font-size: 25px;
+}
+.purchasebtn:hover{
+    background-color: transparent;
+    color: black;
+}
+#scrollspyHeading7 .card:hover{
+    box-shadow: 10px 11px 12px lightgray;
+    transform: scale(1.03,1.03);
+    transition: 1s;
+}
+input[type="text"],input[type="email"],input[type="date"],input[type="time"]{
+   /* width: 50%; */
+   height: 50px;
+   background-color: lightgray;
+   border: 2px dotted darkgray;
+}
+select{
+   width: 480px;
+   height: 50px;
+   background-color: lightgray;
+   border: 2px dotted darkgray;
+   border-radius: 5px;
+   
+}
+.backimg1{
+    background-image: url('images/newsletter-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#button-addon2:hover{
+    background-color: white;
+    color: orangered;
+}
+.backimg2{
+    background-image: url('images/footer_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.footerdiv{
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-top: white 2px dotted;
+}
